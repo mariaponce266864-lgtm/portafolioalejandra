@@ -1,0 +1,173 @@
+body {
+    margin:5px;
+    font-family:arial, sans-serif;
+    background-image: url(inicio.png);
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+nav img {
+    width: 50px;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+.contenedor{
+  background-color:white;
+  margin: 30px;
+  box-sizing: content-box;
+  overflow: scroll;
+  padding:25px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+#carouselExampleCaptions{
+    max-width: 1000px;
+    margin: 30px auto; 
+    border-radius: 12px;
+    overflow:hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.carousel-item img{
+    height: 450px;
+    object-fit: cover;
+}
+
+
+.carousel-caption{
+    background: rgba(0,0,0,0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;     
+}
+
+.carousel-caption h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+    font-size: 70px;
+
+}
+
+.carousel-caption p {
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+
+
+.foto {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+
+.card {
+    border: none;
+    margin: 15px;
+    transition: 0.3s;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.boton{
+  text-decoration:none;
+  background-color:#483428;
+  color:white;
+  padding:7px;
+  margin:8px;
+  width: 20%;
+  border-radius:8px;
+  transition:0.3s;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+input, textarea {
+    border-radius: 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: #2B2825;
+    align-items: center;
+    border-radius: 10px;
+}
+
+footer p{
+    color: white;
+}
+
+.mapa-container{
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.mapa-container h2{
+    margin-bottom: 20px;
+}
+
+.mapa{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
